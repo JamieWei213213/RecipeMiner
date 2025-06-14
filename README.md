@@ -68,17 +68,5 @@ Each file (e.g. `keto.csv`) contains:
 
 ---
 
-## ⚠️ Important Note
-For security, do **not expose your API `client_id` or `client_secret`** in code. Use a `.env` file and `python-dotenv` to manage secrets safely.
-
----
-
-## ✅ TODO / Future Ideas
-- Visualize macro distribution across diets
-- Add text classification on ingredients
-- Build a nutrition recommender system
-
----
-
 ## 📬 Contact
 Open an issue or pull request if you’d like to contribute, ask a question, or collaborate!
