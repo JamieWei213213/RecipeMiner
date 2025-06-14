@@ -69,7 +69,31 @@ Each file (e.g. `keto.csv`) contains:
 
 ---
 
-# Data 
+# Nutrition Analysis & Macro Insights
+
+This module analyzes macronutrient distributions and ingredient patterns across recipe datasets from various diets (e.g., keto, vegan, dash, paleo, diabetes, Mediterranean). It extracts, cleans, and visualizes nutrition data to uncover trends in food composition.
+
+#### Key Features:
+- **Macro Ratio Calculation**  
+  Computes `fat_ratio`, `carb_ratio`, and `protein_ratio` for each recipe by normalizing macronutrient totals. Helps identify which diets are fat-, carb-, or protein-dominant.
+
+- **Ingredient Text Analysis**  
+  - Extracts structured ingredient terms from unstructured text  
+  - Cleans and counts ingredient occurrences  
+  - Plots the **Top 30 Most Common Ingredient Words** (e.g., garlic, pepper, yogurt)
+
+- **Cuisine-Level Macro Comparison**  
+  - Aggregates mean macro ratios by cuisine (e.g., American, Italian, Mediterranean)  
+  - Visualizes how cuisines differ in macronutrient composition
+
+- **Diet-Level Macro Distribution**  
+  - Boxplots show macro ratio variation across diet types  
+  - Summary statistics (mean, std, median) highlight how balanced or skewed each diet is
+
+- **Correlation Analysis**  
+  - Encodes diet types and computes Pearson correlations  
+  - Reveals how fat, carb, and protein values relate to specific diets like vegan or keto
+
 
 ## Contact
 Open an issue or pull request if you’d like to contribute, ask a question, or collaborate!
