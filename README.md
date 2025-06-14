@@ -5,6 +5,7 @@
 This project extracts and analyzes nutrition data from two primary sources: the **FatSecret API** and **DiabetesFoodHub.org**. It builds a unified, structured dataset of 2,000+ food items and recipes to support macronutrient analysis, diet comparison, and health-focused data applications.
 
 ---
+# Data Mining and Scraping
 
 ## 📌 Features
 
